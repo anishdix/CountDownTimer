@@ -16,7 +16,8 @@ const From = () => {
       let date = e.target.value
       
       let difference =+new Date()- +new Date(date)
-      if(difference >=86400000)
+      console.log(difference)
+      if(difference >=8640000000)
       {
       setDateAndTime(0)
       document.getElementById('dateInput').value = ''
