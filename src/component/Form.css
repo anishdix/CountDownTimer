@@ -1,0 +1,60 @@
+.timer{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.formHeading{
+    display: flex;
+    gap: 8px;
+}
+@media only screen and (max-width: 350px) {
+    .formHeading{
+        flex-direction: column;
+        gap:0px
+    }
+    }
+.formHeading1{
+    color: white;
+    margin-bottom: 0;
+
+}
+.formHeading2{
+    color: rgb(201, 6, 201);
+    margin-bottom: 0;
+
+
+}
+.inputDate{
+    /* font-family: Arial, sans-serif; */
+    background-color: transparent;
+    padding: .5rem;
+    border: 2px solid white;
+    border-radius: 4px;
+    color:white;
+}
+.formButton{
+    color:white;
+    background-color: transparent;
+    border:2px solid white;
+    padding:.5rem 1rem;
+    border-radius: 4px;
+
+}
+.message{
+    text-align: center;
+    color: rgb(201, 6, 201);
+    font-weight: 700;
+    font-size: 20px;
+}
